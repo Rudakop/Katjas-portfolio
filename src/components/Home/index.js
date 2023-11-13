@@ -44,7 +44,10 @@ const Home = () => {
                 <div className="text-zone">
                     <h1>
                         <span className={letterClass}>H</span>
-                        <span className={`${letterClass} _12`}>i,</span>
+                        <span className={`${letterClass} _12`}>e</span>
+                        <span className={`${letterClass} _12`}>l</span>
+                        <span className={`${letterClass} _12`}>l</span>
+                        <span className={`${letterClass} _12`}>o!</span>
                         <br />
                         <span className={`${letterClass} _13`}>I</span>
                         <span className={`${letterClass} _14`}>'m</span>
@@ -64,7 +67,7 @@ const Home = () => {
                             idx={22}
                         />
                     </h1>
-                    <h2>Front End Developer / JavaScript Expert / Web designer</h2>
+                    <h2>Frontend Developer / JavaScript Expert / Web designer</h2>
                     <Link to="/contact" className="flat-button">
                         CONTACT ME
                     </Link>
