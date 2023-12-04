@@ -24,7 +24,11 @@ const Contact = () => {
         e.preventDefault()
 
         emailjs
-            .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+            .sendForm(
+                process.env.REACT_APP_SERVICE_ID, 
+                process.env.REACT_APP_TEMPLATE_ID, 
+                form.current, 
+                process.env.REACT_APP_MY_PUBLIC_KEY)
             .then(
                 () => {
                     alert('Message successfully sent!')
@@ -38,6 +42,7 @@ const Contact = () => {
 
     return (
         <>
+        
             <div className="container contact-page">
                 <div className="text-zone">
                     <h1>
@@ -48,11 +53,11 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in any frontend opportunities - especially on ambitious
+                        I am interested in any front-end opportunities - especially on ambitious
                         or large projects. However, if you have any other requests or
                         questions, don't hesitate to contact me using below form either.
                     </p>
-                    <div className="contact-form">
+                    <div id="myForm" className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>
                                 <li className="half">
@@ -91,8 +96,6 @@ const Contact = () => {
                 <div className="info-map">
                     Kozliakova Katja,
                     <br />
-                    Kazakhstan,
-                    <br />
                     Living in Vantaa, Finland <br />
                     <br />
                     <span>kozliakova.kat@gmail.com</span>
@@ -101,7 +104,7 @@ const Contact = () => {
                     {/* <MapContainer center={[44.96366, 19.61045]} zoom={13}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                         <Marker position={[44.96366, 19.61045]}>
-                            <Popup>Katja lives here, come over for a cup of coffee :)</Popup>
+                            <Popup>Katja lives here, come over for a cup of coffee</Popup>
                         </Marker>
                     </MapContainer> */}
                 </div>
