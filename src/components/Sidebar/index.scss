@@ -83,6 +83,12 @@
           content: 'ABOUT';
         }
       }
+
+      a.skills-link {
+        &:after {
+          content: 'SKILLS';
+        }
+      }
   
       a.contact-link {
         &:after {

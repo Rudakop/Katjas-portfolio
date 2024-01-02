@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-/* import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet' */
+import { MapContainer, TileLayer, Marker, Popup, /* useMap  */ } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -25,9 +25,9 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                process.env.REACT_APP_SERVICE_ID, 
-                process.env.REACT_APP_TEMPLATE_ID, 
-                form.current, 
+                process.env.REACT_APP_SERVICE_ID,
+                process.env.REACT_APP_TEMPLATE_ID,
+                form.current,
                 process.env.REACT_APP_MY_PUBLIC_KEY)
             .then(
                 () => {
@@ -42,7 +42,7 @@ const Contact = () => {
 
     return (
         <>
-        
+
             <div className="container contact-page">
                 <div className="text-zone">
                     <h1>
@@ -94,22 +94,21 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="info-map">
-                    Kozliakova Katja,
+                    Katja enjoys being here<br />
+                    come for a cup of coffee
                     <br />
-                    Living in Vantaa, Finland <br />
-                    <br />
-                    <span>kozliakova.kat@gmail.com</span>
+                    <span>0403 714 614</span>
                 </div>
                 <div className="map-wrap">
-                    {/* <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+                    <MapContainer center={[60.3209, 25.0426]} zoom={13}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[44.96366, 19.61045]}>
-                            <Popup>Katja lives here, come over for a cup of coffee</Popup>
+                        <Marker position={[60.3240595, 25.0377999]}>
+                            <Popup>Katja likes here, come for a cup of coffee</Popup>
                         </Marker>
-                    </MapContainer> */}
+                    </MapContainer>
                 </div>
             </div>
-            <Loader type="pacman" />
+            <Loader type="triangle-skew-spin" active />
         </>
     )
 }

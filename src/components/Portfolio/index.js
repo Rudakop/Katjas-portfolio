@@ -1,12 +1,12 @@
-/* import React, { useEffect, useState } from "react";
+import React, { /* useEffect, useState */ } from "react";
 import Loader from "react-loaders";
-import AnimatedLetters from "../AnimatedLetters";
+/* import AnimatedLetters from "../AnimatedLetters"; */
 import "./index.scss";
-import { getDocs, collection } from 'firebase/firestore';
-import { db } from '../../firebase';
+/* import { getDocs, collection } from 'firebase/firestore';
+import { db } from '../../firebase'; */
 
 const Portfolio = () => { 
-    const [letterClass, setLetterClass] = useState('text-animate');
+   /*  const [letterClass, setLetterClass] = useState('text-animate');
     const [portfolio, setPortfolio] = useState([]);
 
     useEffect(() => {
@@ -20,13 +20,13 @@ const Portfolio = () => {
     });
 
     useEffect(() => {
-        getPortfolio();
+        getPortfolio(); 
     }, []);
-
-    const getPortfolio = async () => {
+ */
+    /* const getPortfolio = async () => {
         const querySnapshot = await getDocs(collection(db, 'portfolio'));
         setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
-    }
+    } */
 
     const renderPortfolio = (portfolio) => {
         return (
@@ -58,7 +58,7 @@ const Portfolio = () => {
 
     return (
         <>
-            <div className="container portfolio-page">
+           {/*  <div className="container portfolio-page">
                 <h1 className="page-title">
                     <AnimatedLetters
                         letterClass={letterClass}
@@ -67,10 +67,10 @@ const Portfolio = () => {
                     />
                 </h1>
                 <div>{renderPortfolio(portfolio)}</div>
-            </div>
-            <Loader type="pacman" />
+            </div> */}
+            <Loader type="triangle-skew-spin" active />
         </>
     );
 }
 
-export default Portfolio; */
+export default Portfolio; 

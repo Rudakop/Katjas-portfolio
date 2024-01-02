@@ -1,7 +1,6 @@
 import './index.scss'
 import { useState } from 'react'
 import LogoS from '../../assets/images/logo-k.png'
-/* import LogoSubtitle from '../../assets/images/logo_sub.png' */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
@@ -10,6 +9,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
+  faCog,
   faUser,
   faEnvelope,
   faSuitcase,
@@ -28,7 +28,6 @@ const Sidebar = () =>  {
         to="/"
         onClick={() => setShowNav(false)}>
         <img src={LogoS} alt="Logo" />
-        {/* <img className="sub-logo" src={LogoSubtitle} alt="Kozliakova" /> */}
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink 
@@ -44,6 +43,13 @@ const Sidebar = () =>  {
           to="/about"
           onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </NavLink>
+        <NavLink 
+          activeclassname="active"
+          className="skills-link"
+          to="/skills"
+          onClick={() => setShowNav(false)}>
+          <FontAwesomeIcon icon={faCog} color="#4d4d4e" />
         </NavLink>
         <NavLink
           activeclassname="active"

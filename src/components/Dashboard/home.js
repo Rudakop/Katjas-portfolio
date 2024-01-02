@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+/* import { useRef } from 'react';
 import { auth, storage, db } from '../../firebase';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { addDoc } from 'firebase/firestore';
@@ -71,4 +71,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Home; */

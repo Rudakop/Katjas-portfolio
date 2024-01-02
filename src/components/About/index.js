@@ -78,7 +78,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Loader type="semi-circle-spin" active />
+            <Loader type="triangle-skew-spin" active />
         </>
     )
 }
