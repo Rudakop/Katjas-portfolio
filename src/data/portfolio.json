@@ -1,34 +1,28 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "image": "./assets/images/plandent.png",
+            "title": "Plandent",
+            "description": "Vue js, CSS, JS, C#, Optimizely",
+            "url": "https://www.plandent.com"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "image": "./assets/images/sampo.png",
+            "title": "Sampo",
+            "description": "React, Bootstrap, C#, Optimizely",
+            "url": "https://www.sampo.com"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
+            "image": "./assets/images/kalender.png",
+            "title": "Bok-Makaren AB",
             "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "url": "https://2022.digitalasnallkalendern.art/login"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "image": "./assets/images/tuska.png",
+            "title": "Tuska",
+            "description": "React Native",
+            "url": "https://www.tuska.fi"
         }
     ]
 }

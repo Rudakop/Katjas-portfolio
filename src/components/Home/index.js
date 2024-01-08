@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-k.png'
+import Myfoto from '../../assets/images/me_black_white.jpg'
 import Logo from './Logo'
 import './index.scss'
 
@@ -68,8 +69,9 @@ const Home = () => {
                         />
                     </h1>
                     <h2>Frontend Developer / JavaScript Expert / Web designer</h2>
+                    <img src={Myfoto} className="my-foto" alt="My foto" />
                     <Link to="/contact" className="flat-button">
-                        WRITE ME
+                        HIRE ME
                     </Link>
                 </div>
                 <Logo />

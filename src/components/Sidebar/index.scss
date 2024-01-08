@@ -46,7 +46,7 @@
         }
   
         &:hover {
-          color: #ffd700;
+          color: #28e98c;
   
           svg {
             opacity: 0;
@@ -80,7 +80,7 @@
   
       a.about-link {
         &:after {
-          content: 'ABOUT';
+          content: 'STORY';
         }
       }
 
@@ -98,13 +98,13 @@
   
       a.portfolio-link {
         &:after {
-          content: 'PORTFOLIO';
+          content: 'WORKS';
         }
       }
   
       a.active {
         svg {
-          color: #ffd700;
+          color: #28e98c;
         }
       }
     }
@@ -130,7 +130,7 @@
   
         &:hover {
           .anchor-icon {
-            color: #ffd700;
+            color: #28e98c;
           }
         }
       }

@@ -3,7 +3,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
-const Skills = () => {
+const Myskills = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
@@ -53,12 +53,12 @@ const Skills = () => {
                             target="_blank"
                             rel="noreferrer"
                         > LinkedIn </a>
-                       <span> profile for more details. Also you can checkout my cv on this <a 
-                       target="_blank"
-                        href="C:\Users\Omistaja\source\repos\my-portfolio\src\assets\images\CV_Kozliakova_Katja.pdf"
-                        rel="noreferrer"
+                        <span> profile for more details. Also you can checkout my cv on this <a
+                            target="_blank"
+                            href="https://github.com/Rudakop/Portfolio/blob/master/src/assets/images/CV_Kozliakova_Katja.pdf"
+                            rel="noreferrer"
                         > link.</a>
-                       </span> 
+                        </span>
                     </p>
                 </div>
                 <div className="stage-cube-cont">
@@ -71,4 +71,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Myskills

@@ -13,7 +13,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
-const About = () => {
+const Mystory = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
@@ -32,23 +32,19 @@ const About = () => {
                     <h1>
                         <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+                            strArray={['M', 'y', ' ', 's', 't', 'o', 'r', 'y']}
                             idx={15}
                         />
                     </h1>
                     <p>
-                        I'm a very ambitious front-end developer looking for a role in an
-                        established IT company with the opportunity to work with the latest
-                        technologies on challenging and diverse projects.
+                        Since beginning my journey as a freelance designer nearly 8 years ago, 
+                        I've done remote work for agencies, consulted for startups, and collaborated 
+                        with talented people to create digital products for both business and consumer use. 
+                        I'm naturally curious, and perpetually working on improving my skills.
                     </p>
                     <p align="LEFT">
-                        I'm quiet confident, naturally curious, and perpetually working on
-                        improving my chops one design problem at a time.
-                    </p>
-                    <p>
                         If I need to define myself in one sentence that would be a family
-                        person, mother of three children, a sports, music and nature 
-                        fanatic and tech-obsessed!
+                        person, mother of three children, creative and tech-obsessed!
                     </p>
                 </div>
 
@@ -83,4 +79,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Mystory

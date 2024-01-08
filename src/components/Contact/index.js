@@ -56,6 +56,7 @@ const Contact = () => {
                         I am interested in any front-end opportunities - especially on ambitious
                         or large projects. However, if you have any other requests or
                         questions, don't hesitate to contact me using below form either.
+                        Let's Work Together!
                     </p>
                     <div id="myForm" className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
@@ -94,8 +95,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="info-map">
-                    Katja enjoys being here<br />
-                    come for a cup of coffee
+                    You can find me here in a call<br />
                     <br />
                     <span>0403 714 614</span>
                 </div>

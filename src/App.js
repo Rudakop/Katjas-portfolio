@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
-import About from './components/About'
-import Skills from './components/Skills'
+import About from './components/Mystory'
+import Skills from './components/Myskills'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
-import Portfolio from './components/Portfolio'
-import Dashboard from './components/Dashboard'
+import Myworks from './components/Myworks'
+import portfolio from './data/portfolio.json'
 import './App.scss'
 
 function App() {
@@ -17,8 +17,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/portfolio" element={<Myworks />} portfolio={portfolio}/>
         </Route>
       </Routes>
     </>
