@@ -83,6 +83,7 @@ const Contact = () => {
                                 <li>
                                     <textarea
                                         placeholder="Message"
+                                        type="text"
                                         name="message"
                                         required
                                     ></textarea>
