@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@use-it/interval": "^1.0.0",
     "animate.css": "^4.1.1",
     "gsap-trial": "^3.12.2",
     "loaders.css": "^0.1.2",

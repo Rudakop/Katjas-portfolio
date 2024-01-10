@@ -1,4 +1,3 @@
-/* $primary-color: #ffd700; */
 $primary-color: #28e98c;
 
 @import 'animate.css';
@@ -6,9 +5,15 @@ $primary-color: #28e98c;
 @import '~loaders.css/src/animations/triangle-skew-spin.scss';
 
 @font-face {
-  /* font-family: 'Helvetica Neue'; */
   font-family: 'Fira Code', sans-serif;
   src: url('./assets/fonts/FiraCode-VariableFont_wght.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'matrixFont';
+  src: url('./assets/fonts/matrix.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }

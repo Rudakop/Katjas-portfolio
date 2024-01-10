@@ -69,23 +69,25 @@
   }
 
   .flat-button {
-    color: #28e98c;
+    color: #444;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
+    background: #28e98c;
     border: 1px solid #28e98c;
     border-radius: 20px;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
+    width: fit-content;
 
     &:hover {
-      background: #28e98c;
-      color: #333;
+      background: none;
+      color:  #28e98c;
 
       .button-icon {
         margin: 15px;
@@ -97,10 +99,9 @@
 
 
 @media screen and (max-width: 1200px) {
-
   .tags,
   .home-page h1:before,
-  .home-page h1:after {
+  .home-page h1:after, .my-foto {
     display: none;
   }
 
@@ -112,13 +113,13 @@
     box-sizing: border-box;
   }
 
-  .home-page .flat-button {
+  .home-page  {
     float: none;
     display: block;
     margin: 20px auto 0 auto;
     width: fit-content;
   }
-
+  
   .my-foto {
     position: absolute;
     left: 0;

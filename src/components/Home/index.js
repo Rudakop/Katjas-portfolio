@@ -4,6 +4,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-k.png'
 import Myfoto from '../../assets/images/me_black_white.jpg'
+import MatrixRain from './matrixrain'
 import Logo from './Logo'
 import './index.scss'
 
@@ -41,6 +42,7 @@ const Home = () => {
 
     return (
         <>
+        <MatrixRain className="matrix-bg" />
             <div className="container home-page">
                 <div className="text-zone">
                     <h1>
@@ -74,7 +76,6 @@ const Home = () => {
                         HIRE ME
                     </Link>
                 </div>
-                <Logo />
             </div>
             <Loader type="triangle-skew-spin" active />
         </>

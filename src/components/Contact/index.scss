@@ -36,21 +36,21 @@
 
 
   ::placeholder {
-    color: #14C38E;
+    color: #181818;
     opacity: 1;
     /* Firefox */
   }
 
   ::-ms-input-placeholder {
     /* Edge 12 -18 */
-    color: #14C38E;
+    color:#181818;
   }
 
   input[type='text'],
   input[type='email'] {
     width: 100%;
     border: 0;
-    background: #E3FCBF;
+    background: #14C38E;
     height: 50px;
     font-size: 16px;
     color: #14C38E;
@@ -61,7 +61,7 @@
   textarea {
     width: 100%;
     border: 0;
-    background: #E3FCBF;
+    background: #14C38E;
     height: 50px;
     font-size: 16px;
     color: #14C38E;
@@ -115,10 +115,11 @@
 
 .info-map {
   position: absolute;
-  background: #000;
-  top: 50px;
-  right: 30%;
+  background: #14C38E;
+  top: 200px;
+  right: 27%;
   z-index: 999999;
+  border-radius: 20px;
   width: 267px;
   padding: 20px;
   color: #fff;
