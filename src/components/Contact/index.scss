@@ -51,6 +51,7 @@
     width: 100%;
     border: 0;
     background: #14C38E;
+    border-radius: 20px;
     height: 50px;
     font-size: 16px;
     color: #14C38E;
@@ -62,6 +63,7 @@
     width: 100%;
     border: 0;
     background: #14C38E;
+    border-radius: 20px;
     height: 50px;
     font-size: 16px;
     color: #14C38E;
@@ -71,23 +73,23 @@
   }
 
   .flat-button {
-    color: #28e98c;
+    color: #444;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
     border: 1px solid #28e98c;
+    background-color: #28e98c;
     float: left;
     border-radius: 20px;
-    background: 0 0;
     text-transform: uppercase;
     float: right;
     text-align: center;
     margin-right: 10px;
 
     &:hover {
-      background: #28e98c;
-      color: #333;
+      background: none;
+      color:  #28e98c;
 
       .button-icon {
         margin: 15px;

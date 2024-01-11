@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
-import "./index.scss";
 import portfolioData from '../../data/portfolio.json';
+import "./index.scss";
+
 
 
 const Myworks = () => {
@@ -21,12 +22,15 @@ const Myworks = () => {
         return (
             <div className="images-container">
                 {portfolio.map((port, idx) => (
+                    
                     <div className="image-box" key={idx}>
                         <img
                             src={port.image}
                             className="portfolio-image"
                             alt="portfolio"
                         />
+                        <p>{port.title}</p>
+                        <p>{port.description}</p>
                     </div>
                 ))}
             </div>

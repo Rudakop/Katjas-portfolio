@@ -1,15 +1,15 @@
 {
     "portfolio": [
         {
-            "image": "./assets/images/plandent.png",
+            "image": "./assets/images/logo2.png",
             "title": "Plandent",
-            "description": "Vue js, CSS, JS, C#, Optimizely",
+            "description": "Vue js, CSS, JS, C, Optimizely",
             "url": "https://www.plandent.com"
         },
         {
             "image": "./assets/images/sampo.png",
             "title": "Sampo",
-            "description": "React, Bootstrap, C#, Optimizely",
+            "description": "React, Bootstrap, C, Optimizely",
             "url": "https://www.sampo.com"
         },
         {
