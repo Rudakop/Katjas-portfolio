@@ -1,28 +1,52 @@
 {
     "portfolio": [
         {
-            "image": "./assets/images/logo2.png",
+            "image": "plandent.png",
             "title": "Plandent",
             "description": "Vue js, CSS, JS, C, Optimizely",
             "url": "https://www.plandent.com"
         },
         {
-            "image": "./assets/images/sampo.png",
+            "image": "sampo.png",
             "title": "Sampo",
             "description": "React, Bootstrap, C, Optimizely",
             "url": "https://www.sampo.com"
         },
         {
-            "image": "./assets/images/kalender.png",
+            "image": "kalender.png",
             "title": "Bok-Makaren AB",
             "description": "React, JSX, Tailwind, Jest",
             "url": "https://2022.digitalasnallkalendern.art/login"
         },
         {
-            "image": "./assets/images/tuska.png",
+            "image": "tuska.png",
             "title": "Tuska",
             "description": "React Native",
             "url": "https://www.tuska.fi"
+        },
+        {
+            "image": "webinar.png",
+            "title": "Webinar website",
+            "description": "Design",
+            "url": "https://www.behance.net/gallery/110642689/Webinars-project"
+        },
+        {
+            "image": "kevyt_yri.png",
+            "title": "Kevyt yrittäjät",
+            "description": "Design",
+            "url": "https://www.behance.net/gallery/108949931/KevytKoodaaja"
+        },
+        {
+            "image": "business_finland.png",
+            "title": "Business Finland",
+            "description": "Optimizely, CSS, design",
+            "url": "https://bddy.me/3kX5EXi"
+        },
+        {
+            "image": "digi_fi.png",
+            "title": "Digi Finland",
+            "description": "Optimizely, CSS, design",
+            "url": "https://bddy.me/3JpApO5"
         }
     ]
 }

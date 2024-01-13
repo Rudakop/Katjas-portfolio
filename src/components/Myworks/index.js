@@ -22,15 +22,16 @@ const Myworks = () => {
         return (
             <div className="images-container">
                 {portfolio.map((port, idx) => (
-                    
                     <div className="image-box" key={idx}>
-                        <img
-                            src={port.image}
+                    <a href={port.url} target="_blank" rel="noreferrer">
+                         <img
+                            src={require(`../../assets/images/${port.image}`)}
                             className="portfolio-image"
-                            alt="portfolio"
+                            alt={port.title}
                         />
                         <p>{port.title}</p>
                         <p>{port.description}</p>
+                        </a>
                     </div>
                 ))}
             </div>
