@@ -1,16 +1,10 @@
 {
     "portfolio": [
         {
-            "image": "plandent.png",
-            "title": "Plandent",
-            "description": "Vue js, CSS, JS, C, Optimizely",
-            "url": "https://www.plandent.com"
-        },
-        {
-            "image": "sampo.png",
-            "title": "Sampo",
-            "description": "React, Bootstrap, C, Optimizely",
-            "url": "https://www.sampo.com"
+            "image": "kevyt_yri.png",
+            "title": "Kevyt yrittäjät",
+            "description": "Design",
+            "url": "https://www.behance.net/gallery/108949931/KevytKoodaaja"
         },
         {
             "image": "kalender.png",
@@ -19,8 +13,8 @@
             "url": "https://2022.digitalasnallkalendern.art/login"
         },
         {
-            "image": "tuska.png",
-            "title": "Tuska",
+            "image": "event.png",
+            "title": "Entertainment industry",
             "description": "React Native",
             "url": "https://www.tuska.fi"
         },
@@ -31,20 +25,26 @@
             "url": "https://www.behance.net/gallery/110642689/Webinars-project"
         },
         {
-            "image": "kevyt_yri.png",
-            "title": "Kevyt yrittäjät",
-            "description": "Design",
-            "url": "https://www.behance.net/gallery/108949931/KevytKoodaaja"
+            "image": "pla.png",
+            "title": "Health care industry",
+            "description": "Vue js, CSS, JS, C, Optimizely",
+            "url": ""
         },
         {
-            "image": "business_finland.png",
-            "title": "Business Finland",
+            "image": "sa.png",
+            "title": "Insurance industry",
+            "description": "React, Bootstrap, C, Optimizely",
+            "url": ""
+        },
+        {
+            "image": "bu_fi.png",
+            "title": "Health care industry",
             "description": "Optimizely, CSS, design",
             "url": "https://bddy.me/3kX5EXi"
         },
         {
-            "image": "digi_fi.png",
-            "title": "Digi Finland",
+            "image": "di_fi.png",
+            "title": "Health care industry",
             "description": "Optimizely, CSS, design",
             "url": "https://bddy.me/3JpApO5"
         }

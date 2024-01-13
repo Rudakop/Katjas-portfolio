@@ -52,12 +52,12 @@ const Contact = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>
+                   {/*  <p>
                         I am interested in any front-end opportunities - especially on ambitious
                         or large projects. However, if you have any other requests or
                         questions, don't hesitate to contact me using below form either.
                         Let's Work Together!
-                    </p>
+                    </p> */}
                     <div id="myForm" className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>
