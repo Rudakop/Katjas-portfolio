@@ -40,15 +40,23 @@
         }
 
         p {
-            font-family:'Fira Code', sans-serif;
-            color: #fff;
-            margin-top: 2rem;
-            margin-left: 2rem;
+            font-family: 'Fira Code', sans-serif;
+            color: #444;
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            padding: 8px 10px;
+            border: 1px solid #28e98c;
+            background-color: #28e98c;
+            border-radius: 20px;
+            text-transform: uppercase;
+            float: right;
+            text-align: right;
+            margin: 1rem;
         }
 
         .content {
             position: absolute;
-
             width: 100%;
             z-index: 3;
             padding: 10px 20px;

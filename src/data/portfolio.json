@@ -2,13 +2,13 @@
     "portfolio": [
         {
             "image": "kevyt_yri.png",
-            "title": "Kevyt yrittäjät",
+            "title": "Entrepreneurship",
             "description": "Design",
             "url": "https://www.behance.net/gallery/108949931/KevytKoodaaja"
         },
         {
             "image": "kalender.png",
-            "title": "Bok-Makaren AB",
+            "title": "Voluntary project",
             "description": "React, JSX, Tailwind, Jest",
             "url": "https://2022.digitalasnallkalendern.art/login"
         },
@@ -16,17 +16,17 @@
             "image": "event.png",
             "title": "Entertainment industry",
             "description": "React Native",
-            "url": "https://www.tuska.fi"
+            "url": ""
         },
         {
             "image": "webinar.png",
-            "title": "Webinar website",
+            "title": "Entertainment industry",
             "description": "Design",
             "url": "https://www.behance.net/gallery/110642689/Webinars-project"
         },
         {
             "image": "pla.png",
-            "title": "Health care industry",
+            "title": "Healthcare industry",
             "description": "Vue js, CSS, JS, C, Optimizely",
             "url": ""
         },
@@ -38,15 +38,15 @@
         },
         {
             "image": "bu_fi.png",
-            "title": "Health care industry",
+            "title": "Healthcare industry",
             "description": "Optimizely, CSS, design",
-            "url": "https://bddy.me/3kX5EXi"
+            "url": ""
         },
         {
             "image": "di_fi.png",
-            "title": "Health care industry",
+            "title": "Healthcare industry",
             "description": "Optimizely, CSS, design",
-            "url": "https://bddy.me/3JpApO5"
+            "url": ""
         }
     ]
 }

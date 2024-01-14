@@ -73,7 +73,7 @@
   }
 
   .flat-button {
-    color: #444;
+    /* color: #444;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
@@ -85,7 +85,23 @@
     text-transform: uppercase;
     float: right;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 10px; */
+
+    color: #444;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    background: #28e98c;
+    border: 1px solid #28e98c;
+    border-radius: 20px;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+    width: fit-content;
 
     &:hover {
       background: none;
