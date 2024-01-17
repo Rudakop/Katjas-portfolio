@@ -42,22 +42,15 @@ const Contact = () => {
 
     return (
         <>
-
             <div className="container contact-page">
                 <div className="text-zone">
                     <h1>
                         <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+                            strArray={['L', 'e', 't', "'",'s', ' ', 'w', 'o', 'r ', 'k', ' ', 't', 'o', 'g ', 'e', 't', 'h', 'e', 'r!']}
                             idx={15}
                         />
                     </h1>
-                   {/*  <p>
-                        I am interested in any front-end opportunities - especially on ambitious
-                        or large projects. However, if you have any other requests or
-                        questions, don't hesitate to contact me using below form either.
-                        Let's Work Together!
-                    </p> */}
                     <div id="myForm" className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>

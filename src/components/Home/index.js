@@ -5,7 +5,6 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-k.png'
 import Myfoto from '../../assets/images/me_black_white.jpg'
 import MatrixRain from './matrixrain'
-import Logo from './Logo'
 import './index.scss'
 
 const Home = () => {

@@ -10,13 +10,35 @@ const Myworks = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const [loading, setLoading] = useState(true);
     const [portfolio, setPortfolio] = useState([]);
-
+  
     useEffect(() => {
-        setTimeout(() => {
-            setPortfolio(portfolioData.portfolio);
+        const timeoutId = setTimeout(() => {
+            setLetterClass('text-animate-hover');
+        }, 3000);
+        return () => {
+            clearTimeout(timeoutId);
+        };
+    }, []);
+    
+    useEffect(() => {
+        const fetchData = async () => {
+          try {
+            const timeoutId = setTimeout(() => {
+              setPortfolio(portfolioData.portfolio);
+              setLoading(false);
+            }, 2000);
+    
+            return () => {
+              clearTimeout(timeoutId);
+            };
+          } catch (error) {
+            console.error("Error fetching portfolio data:", error);
             setLoading(false);
-        }, 2000);
-    }, []); 
+          }
+        };
+    
+        fetchData();
+      }, []);
 
     const renderPortfolio = () => {
         return (
@@ -43,11 +65,11 @@ const Myworks = () => {
             {loading && <Loader type="triangle-skew-spin" active />}
             <div className="container portfolio-page">
                 <h1 className="page-title">
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={"My works".split("")}
-                        idx={15}
-                    />
+                        <AnimatedLetters
+                            letterClass={letterClass}
+                            strArray={['M', 'y', ' ', 'w', 'o', 'r', 'k', 's']}
+                            idx={15}
+                        />
                 </h1>
                 <div>{renderPortfolio()}</div>
             </div>

@@ -1,12 +1,34 @@
 $primary-color: #28e98c;
 
+
 @import 'animate.css';
 /* @import '~loaders.css/src/animations/pacman.scss'; */
 @import '~loaders.css/src/animations/triangle-skew-spin.scss';
 
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url('./assets/fonts/Inter.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Fira Code', sans-serif;
   src: url('./assets/fonts/FiraCode-VariableFont_wght.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hack-regular', sans-serif;
+  src: url('./assets/fonts/Hack-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack-bold', sans-serif;
+  src: url('./assets/fonts/Hack-Bold.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,7 +58,8 @@ $primary-color: #28e98c;
 
 input,
 textarea {
-  font-family: 'Fira Code', sans-serif;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Fira Code', sans-serif; */
 }
 
 .loader-hidden {

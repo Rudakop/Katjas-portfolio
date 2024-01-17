@@ -1,39 +1,44 @@
-.matrix-stream {
-    font-family: 'matrixFont';
-    color: #14C38E;
-    writing-Mode: vertical-rl;
-    text-orientation: upright;
-    user-select: none;
-    white-space: nowrap;
-    margin-left: -15;
-    margin-right: -15;
-    text-shadow: 0px 0px 8px rgba(32, 194, 14, 0.8);
-    font-size: 31;
-}
-
-
 .matrix-container {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    overflow: ignore;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: flex-end;
 }
-@media screen and (min-width:1200px) and (max-width:1600px) {
-    .matrix-stream {
-        font-size: 21;
-    }
+
+.matrix-stream {
+    font-family: 'matrixFont';
+    color: #14C38E;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    user-select: none;
+    white-space: nowrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    text-shadow: 0px 0px 8px rgba(32, 194, 14, 0.8);
+    font-size: 31px;
 }
-@media screen and (min-width:900px) and (max-width:1200px) {
-    .matrix-stream {
-        font-size: 5;
-    }
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
     .matrix-container {
-        left: 50%;
+        left: 10%;
+    }
+    .matrix-stream {
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .matrix-container {
+        left: 60%;
+    }
+    .matrix-stream {
+        font-size: 5px;
+        margin-left: -25px;
     }
 }
 
