@@ -4,10 +4,15 @@ import mystoryData from '../../data/mystory.json';
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
+
+
+
 const Mystory = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const [mypath, setMystoryData] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [selectedIndex, setSelectedIndex] = useState(3)
+    
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -31,13 +36,15 @@ const Mystory = () => {
         fetchData();
     }, []);
 
-
+    
     const renderMystory = () => {
         return (
             <div className="mystory-container">
                 <ul>
                     {mypath.map((path, idx) => (
-                        <li key={idx}><p className="mystory-title">{path.title}</p></li>
+                        <li key={idx} >
+                            <p className={ idx === selectedIndex ? 'green-text' : 'text'} 
+                            onClick={() => setSelectedIndex(idx)}>{path.year}<br/>{path.title}</p></li>
                     ))}
                 </ul>
             </div>
@@ -46,7 +53,7 @@ const Mystory = () => {
 
     return (
         <>
-            {loading && <Loader type="triangle-skew-spin" active />}
+            {loading && <Loader type="ball-clip-rotate-multiple" active />}
             <div className="container story-page">
                 <div className="text-zone">
                     <h1>
@@ -73,4 +80,4 @@ const Mystory = () => {
     )
 }
 
-export default Mystory
+export default Mystory;

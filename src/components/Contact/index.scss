@@ -26,17 +26,14 @@
       float: left;
       clear: none;
 
-
-
       &:first-child {
         margin-left: 0;
       }
     }
   }
 
-
   ::placeholder {
-    color: #181818;
+    color: #fff;
     opacity: 1;
     /* Firefox */
   }
@@ -73,20 +70,6 @@
   }
 
   .flat-button {
-    /* color: #444;
-    font-size: 11px;
-    letter-spacing: 3px;
-    text-decoration: none;
-    padding: 8px 10px;
-    border: 1px solid #28e98c;
-    background-color: #28e98c;
-    float: left;
-    border-radius: 20px;
-    text-transform: uppercase;
-    float: right;
-    text-align: center;
-    margin-right: 10px; */
-
     color: #444;
     font-size: 13px;
     font-weight: 400;

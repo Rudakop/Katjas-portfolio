@@ -102,7 +102,7 @@ const Contact = () => {
                     </MapContainer>
                 </div>
             </div>
-            <Loader type="triangle-skew-spin" active />
+            <Loader type="ball-clip-rotate-multiple" active />
         </>
     )
 }

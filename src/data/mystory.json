@@ -1,20 +1,52 @@
 {
     "mypath": [
         {
-            "id": "1",
+            "year": "09.2002 - 06.2007",
+            "title": "Saint-Petersburg University of Engineering and Economics"
+        },
+        {
+            "year": "02.2008 - 09.2018",
+            "title": "Kalininskij distr St.-Petersburg, Financial Controller"
+        },
+        {
+            "year": "06.2016 - 09.2018",
+            "title": "Freelance Web Designer"
+        },
+        {
+            "year": "09.2018",
             "title": "Moved to Finland"
         },
         {
-            "id": "2",
-            "title": "Moved to Finland"
+            "year": "09.2018-05.2020",
+            "title": "Finnish courses"
         },
         {
-            "id": "3",
-            "title": "Moved to Finland"
+            "year": "06.2020 - 09.2020",
+            "title": "The Shortcut Oy, Full-stack Web Developer Training"
         },
         {
-            "id": "4",
-            "title": "Moved to Finland"
+            "year": "10.2020 - 03.2020",
+            "title": "Opiframe, Programming training"
+        },
+        {
+            "year": "10.2020 - 03.2021",
+            "title": "PHZ Full Stack, Frontend Web Developer, UI Designer"
+        },
+        {
+            "year": "03.2021 - 08.2021",
+            "title": "Nomentia, SW Developer"
+        },
+        {
+            "year": "11.2021 - 05.2023",
+            "title": "Tietoevry, Full-stack Developer"
+        },
+        {
+            "year": "05.2023 - 11.2023",
+            "title": "own software project"
+        },
+        {
+            "year": "11.2023 - 08.2021",
+            "title": "Taitotalo, Low code - no code expert in system development"
         }
     ]
 }

@@ -1,20 +1,21 @@
 .my-skills-link {
   text-decoration: none;
   color: #28e98c;
+
   &:hover {
     color: #fff;
   }
 }
 
 .stage-cube-cont {
-  width: 50%;
-  height: 100%;
-  top: 0;
-  padding-top: 18%;
-  margin-left: 0;
   position: absolute;
   right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  padding-top: 18%;
   overflow: hidden;
+  margin-left: calc(50% - 100px);
 }
 
 .cubespinner {
@@ -25,68 +26,66 @@
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
+}
 
-  div {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border: 1px solid #ccc;
-    background: rgba(255, 255, 255, 0.4);
-    text-align: center;
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 20px 0px lightyellow;
-  }
+.cubespinner div {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0px lightyellow;
+}
 
-  .face1 {
-    transform: translateZ(100px);
-    color: #dd0031;
-    background: #28e98c;
-    opacity: 0.4;
-  }
+.cubespinner .face1 {
+  transform: translateZ(100px);
+  color: #dd0031;
+  background: #28e98c;
+  opacity: 0.4;
+}
 
-  .face2 {
-    transform: rotateY(90deg) translateZ(100px);
-    color: #f06529;
-    background: #28e98c;
-    opacity: 0.4;
-  }
+.cubespinner .face2 {
+  transform: rotateY(90deg) translateZ(100px);
+  color: #f06529;
+  background: #28e98c;
+  opacity: 0.4;
+}
 
-  .face3 {
-    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-    color: #28a4d9;
-    background: #28e98c;
-    opacity: 0.4;
-  }
+.cubespinner .face3 {
+  transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+  color: #28a4d9;
+  background: #28e98c;
+  opacity: 0.4;
+}
 
-  .face4 {
-    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-    color: #5ed4f4;
-    background: #28e98c;
-    opacity: 0.4;
-  }
+.cubespinner .face4 {
+  transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+  color: #5ed4f4;
+  background: #28e98c;
+  opacity: 0.4;
+}
 
-  .face5 {
-    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-    color: #efd81d;
-    background: #28e98c;
-    opacity: 0.4;
-  }
+.cubespinner .face5 {
+  transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+  color: #efd81d;
+  background: #28e98c;
+  opacity: 0.4;
+}
 
-  .face6 {
-    transform: rotateX(-90deg) translateZ(100px);
-    color: #ec4d28;
-    background: #28e98c;
-    opacity: 0.4;
-  }
+.cubespinner .face6 {
+  transform: rotateX(-90deg) translateZ(100px);
+  color: #ec4d28;
+  background: #28e98c;
+  opacity: 0.4;
 }
 
 @keyframes spincube {
-
-  from,
-  to {
+  from, to {
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   }
 
@@ -111,27 +110,28 @@
   }
 }
 
-
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-  .stage-cube-cont{
+  .stage-cube-cont {
     float: right;
-   }
+  }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
- .stage-cube-cont{
-  float: right;
-    transform: translateX(30%);
- }
-}
-@media screen and (min-width: 500px) and (max-width: 900px) {
-  .stage-cube-cont{
-   float: right;
-     transform: translateX(20%);
+  .stage-cube-cont {
+    float: right;
+    transform: translateY(-50%) translateX(30%);
   }
- }
-@media screen and (max-width: 700px) {
-  .stage-cube-cont{
+}
+
+@media screen and (min-width: 500px) and (max-width: 899px) {
+  .stage-cube-cont {
+    float: right;
+    transform: translateX(20%);
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .stage-cube-cont {
     display: none;
-   }
+  }
 }

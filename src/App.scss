@@ -2,8 +2,7 @@ $primary-color: #28e98c;
 
 
 @import 'animate.css';
-/* @import '~loaders.css/src/animations/pacman.scss'; */
-@import '~loaders.css/src/animations/triangle-skew-spin.scss';
+@import '~loaders.css/src/animations/ball-clip-rotate-multiple.scss';
 
 
 @font-face {
@@ -59,7 +58,6 @@ $primary-color: #28e98c;
 input,
 textarea {
   font-family: 'Inter', sans-serif;
-  /* font-family: 'Fira Code', sans-serif; */
 }
 
 .loader-hidden {

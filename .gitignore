@@ -6,6 +6,13 @@
 
 # dependencies
 /node_modules
+**/*.log
+node_modules
+tmp
+lib
+.DS_Store
+.idea
+db.json
 /.pnp
 .pnp.js
 

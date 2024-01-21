@@ -1,40 +1,70 @@
 .mystory-list {
   position: absolute;
-  top: 20%;
+  top: 10%;
+  bottom: 10%;
   left: 60%;
 
   .mystory-container {
 
     ul {
       counter-reset: list;
-      border-left: 2px solid lightgrey;
+      border-left: 2px solid #999999;
       margin: 1em;
       padding: 0;
+      animation: fadeIn 1s 1.7s backwards;
+
     }
 
     ul li {
       list-style: none;
       margin: 0 0 0.5em 0;
       padding: 0;
+      height: 6rem;
+      color: #fff;
     }
 
     ul li:before {
       display: inline-block;
-      width: 1.2em;
-      height: 1.2em;
-      margin: 0 0.5em 0 -0.65em;
+      width: 1em;
+      height: 1em;
+      margin: 0 0.5em 0 -0.62em;
       border-radius: 50%;
-      content: counter(list);
-      text-align: center;
-      background: lightgrey;
-      counter-increment: list;
+      content: '';
+      background: #999999;
     }
 
-    p {
+    .text {
       justify-content: flex-start;
-      text-align: center;
+      vertical-align: top;
+      text-align: left;
       padding: 0 0 0 2rem;
+      margin-top: -20px;
       display: flex;
+      animation: fadeIn 1s 1.7s backwards;
+      color: #fff;
+      font-family: 'Fira Code', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
     }
+
+    .green-text {
+      justify-content: flex-start;
+      vertical-align: top;
+      text-align: left;
+      padding: 0 0 0 2rem;
+      margin-top: -20px;
+      display: flex;
+      animation: fadeIn 1s 1.7s backwards;
+      font-family: 'Fira Code', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #14C38E;
+    }
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .mystory-list {
+    display: none;
   }
 }
