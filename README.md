@@ -1,6 +1,6 @@
 # My Developers portfolio
 
-![Home page view](images/Read.me/home-page.PNG)
+![Home page view](https://github.com/Rudakop/Katjas-portfolio/blob/main/src/assets/images/Read.me/home-page.PNG)
 
 Description of your project goes here...
 
