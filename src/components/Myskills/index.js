@@ -29,7 +29,7 @@ const Myskills = () => {
     const techTags = ['HTML5', 'CSS', 'JavaScript', 'React', 'Vue', 'TypeScript', 'Angular', 'Next.js', 'Node.js', 'C#'];
 
     const linkedInUrl = 'https://www.linkedin.com/in/radistka/';
-    const cvUrl = 'https://github.com/Rudakop/Portfolio/blob/master/src/assets/images/CV_Kozliakova_Katja.pdf';
+    const cvUrl = 'https://github.com/Rudakop/Portfolio/blob/master/src/assets/images/Myskills/CV_Kozliakova_Katja.pdf';
 
     return (
         <>

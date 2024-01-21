@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import LogoTitle from '../../assets/images/logo-k.png';
-import Myfoto from '../../assets/images/me_black_white.jpg';
+import LogoTitle from '../../assets/images/Home/logo-k.png';
+import Myfoto from '../../assets/images/Home/me_black_white.jpg';
 import MatrixRain from './matrixrain';
 import './index.scss';
 

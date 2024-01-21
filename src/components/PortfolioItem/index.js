@@ -7,7 +7,7 @@ const PortfolioItem = ({ portfolio }) => {
     <div className="image-box">
       <a href={portfolio.url} target="_blank" rel="noreferrer">
         <img
-          src={require(`../../assets/images/${portfolio.image}`)}
+          src={require(`../../assets/images/Myworks/${portfolio.image}`)}
           className="portfolio-image"
           alt={portfolio.title}
         />
