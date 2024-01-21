@@ -1,3 +1,9 @@
+# My Developers portfolio
+
+![Home page view](https://github.com/Rudakop/Katjas-portfolio/blob/main/src/assets/images/Read.me/home-page.PNG)
+
+Description of your project goes here...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
