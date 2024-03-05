@@ -33,6 +33,7 @@ const Home = () => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setLetterClass('text-animate-hover');
+      setLoading(false); // Set loading to false when animation is done
     }, 4000);
 
     return () => {

@@ -5,9 +5,6 @@ import PortfolioItem from "../PortfolioItem";
 import portfolioData from '../../data/portfolio.json';
 import "./index.scss";
 
-
-
-
 const MyWorks = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
   const [loading, setLoading] = useState(true);
@@ -27,6 +24,7 @@ const MyWorks = () => {
       try {
         const timeoutId = setTimeout(() => {
           setPortfolio(portfolioData.portfolio);
+          setLoading(false); // Assuming you want to set loading to false when data is fetched
         }, 2000);
 
         return () => {
@@ -34,6 +32,7 @@ const MyWorks = () => {
         };
       } catch (error) {
         console.error("Error fetching portfolio data:", error);
+        setLoading(false); // Handle error by setting loading to false
       }
     };
 
