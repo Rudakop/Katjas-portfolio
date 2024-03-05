@@ -28,7 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "cypress:open": "cypress open"
+    "prebuild": "npx update-browserslist-db@latest"
   },
   "eslintConfig": {
     "extends": [
@@ -51,7 +51,6 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.22.11",
-    "cypress": "^13.6.2",
     "webpack-cli": "^5.1.4"
   }
 }

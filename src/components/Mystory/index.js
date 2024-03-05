@@ -27,10 +27,8 @@ const Mystory = () => {
         const fetchData = async () => {
             try {
                 setMystoryData(mystoryData.mypath);
-                setLoading(false);
             } catch (error) {
                 console.error("Error fetching portfolio data:", error);
-                setLoading(false);
             }
         };
         fetchData();

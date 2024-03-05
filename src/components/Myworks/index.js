@@ -27,7 +27,6 @@ const MyWorks = () => {
       try {
         const timeoutId = setTimeout(() => {
           setPortfolio(portfolioData.portfolio);
-          setLoading(false);
         }, 2000);
 
         return () => {
@@ -35,7 +34,6 @@ const MyWorks = () => {
         };
       } catch (error) {
         console.error("Error fetching portfolio data:", error);
-        setLoading(false);
       }
     };
 
