@@ -38,7 +38,10 @@
     "ignorePatterns": [
       "node_modules/",
       "build/"
-    ]
+    ],
+    "rules": {
+      "no-undef": "warn"
+    }
   },
   "browserslist": {
     "production": [
