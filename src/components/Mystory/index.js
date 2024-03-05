@@ -4,9 +4,6 @@ import mystoryData from '../../data/mystory.json';
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
-
-
-
 const Mystory = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const [mypath, setMystoryData] = useState([]);
@@ -27,6 +24,7 @@ const Mystory = () => {
         const fetchData = async () => {
             try {
                 setMystoryData(mystoryData.mypath);
+                setLoading(false); // Set loading to false after data is fetched
             } catch (error) {
                 console.error("Error fetching portfolio data:", error);
             }
@@ -34,7 +32,6 @@ const Mystory = () => {
         fetchData();
     }, []);
 
-    
     const renderMystory = () => {
         return (
             <div className="mystory-container">

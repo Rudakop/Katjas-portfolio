@@ -15,7 +15,7 @@ import './index.scss';
 
 const Myskills = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(true); // Define the loading state variable
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {

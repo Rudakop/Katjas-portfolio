@@ -71,7 +71,7 @@ const RainStream = ({ height }) => {
   return (
     <div className='matrix-stream' style={getDynamicStyles(topPadding)}>
       {stream.map((char, index) => (
-        <a
+        <span
           key={index}
           style={{
             marginTop: -12,
@@ -81,7 +81,7 @@ const RainStream = ({ height }) => {
           }}
         >
           {char}
-        </a>
+        </span>
       ))}
     </div>
   );
