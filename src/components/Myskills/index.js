@@ -15,7 +15,7 @@ import './index.scss';
 
 const Myskills = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const [loading, setLoading] = useState(true); // Define the loading state variable
+    
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -33,7 +33,7 @@ const Myskills = () => {
 
     return (
         <>
-            {loading && <Loader type="ball-clip-rotate-multiple" active />}
+            <Loader type="ball-clip-rotate-multiple" active />
             <header className="container skills-page">
                 <div className="text-zone">
                     <h1>
